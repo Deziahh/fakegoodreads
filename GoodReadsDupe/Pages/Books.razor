@@ -1,0 +1,28 @@
+@page "/books"
+@inject HttpClient Http
+@using BookClient.Models
+
+<h3>Book List</h3>
+
+@if (books == null)
+{
+    <p><em>Loading...</em></p>
+}
+else
+{
+    <ul>
+        @foreach (var book in books)
+        {
+            <li><strong>@book.Title</strong> by @book.Author</li>
+        }
+    </ul>
+}
+
+@code {
+    private List<Book>? books;
+
+    protected override async Task OnInitializedAsync()
+    {
+        books = await Http.GetFromJsonAsync<List<Book>>("books");
+    }
+}
