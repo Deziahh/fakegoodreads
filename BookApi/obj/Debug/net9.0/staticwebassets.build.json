@@ -1,12 +1,1042 @@
 {
   "Version": 1,
-  "Hash": "SFVnIx/QyQZEhrNBSm5uthCza/p6mId7+czidpYh+bk=",
+  "Hash": "AYh5QJS3aWnTKndhuvD5XiAVEHwqDOcx2RgoGga+gps=",
   "Source": "BookApi",
   "BasePath": "_content/BookApi",
   "Mode": "Default",
   "ManifestType": "Build",
   "ReferencedProjectsConfiguration": [],
-  "DiscoveryPatterns": [],
-  "Assets": [],
-  "Endpoints": []
+  "DiscoveryPatterns": [
+    {
+      "Name": "BookApi/wwwroot",
+      "Source": "BookApi",
+      "ContentRoot": "/Users/dezzz/BookApi/wwwroot/",
+      "BasePath": "_content/BookApi",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "/Users/dezzz/BookApi/obj/Debug/net9.0/compressed/0g3xlmqs5b-vmirwpuc6a.gz",
+      "SourceId": "BookApi",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/dezzz/BookApi/obj/Debug/net9.0/compressed/",
+      "BasePath": "_content/BookApi",
+      "RelativePath": "index#[.{fingerprint=vmirwpuc6a}]?.html.gz",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "/Users/dezzz/BookApi/wwwroot/index.html",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "21gh6ch3zp",
+      "Integrity": "ZrF34oo8SA5d7YtK8UmBqS1ZDXREXQhzMExOAG7Nb3o=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "/Users/dezzz/BookApi/wwwroot/index.html"
+    },
+    {
+      "Identity": "/Users/dezzz/BookApi/obj/Debug/net9.0/compressed/7zsdkkhl5l-qw3ibyva09.gz",
+      "SourceId": "BookApi",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/dezzz/BookApi/obj/Debug/net9.0/compressed/",
+      "BasePath": "_content/BookApi",
+      "RelativePath": "script#[.{fingerprint=qw3ibyva09}]?.js.gz",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "/Users/dezzz/BookApi/wwwroot/script.js",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "6gc5m8fhqb",
+      "Integrity": "RvR2jK/K3sAac7gtyjTW3F/HzFxSiDPRX9dzJ+kn2hY=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "/Users/dezzz/BookApi/wwwroot/script.js"
+    },
+    {
+      "Identity": "/Users/dezzz/BookApi/obj/Debug/net9.0/compressed/fcsm4tenuv-8h3vph72wf.gz",
+      "SourceId": "BookApi",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/dezzz/BookApi/obj/Debug/net9.0/compressed/",
+      "BasePath": "_content/BookApi",
+      "RelativePath": "style#[.{fingerprint=8h3vph72wf}]?.css.gz",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "/Users/dezzz/BookApi/wwwroot/style.css",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "xtnzdwqu33",
+      "Integrity": "m8+inVXmIc/WKmR3tLMKpyRjrfzpJg3qr+/+ktgFTqs=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "/Users/dezzz/BookApi/wwwroot/style.css"
+    },
+    {
+      "Identity": "/Users/dezzz/BookApi/wwwroot/index.html",
+      "SourceId": "BookApi",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/dezzz/BookApi/wwwroot/",
+      "BasePath": "_content/BookApi",
+      "RelativePath": "index#[.{fingerprint}]?.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "vmirwpuc6a",
+      "Integrity": "F5tukNtFPFwOri3JRxV9Yrj48nuwQ7dyFgUbLwE82Pk=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/index.html"
+    },
+    {
+      "Identity": "/Users/dezzz/BookApi/wwwroot/script.js",
+      "SourceId": "BookApi",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/dezzz/BookApi/wwwroot/",
+      "BasePath": "_content/BookApi",
+      "RelativePath": "script#[.{fingerprint}]?.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "qw3ibyva09",
+      "Integrity": "tviJ+LpmroHhMKGHC1PrL44q36VM9kyyaANmV+Iyg3Y=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/script.js"
+    },
+    {
+      "Identity": "/Users/dezzz/BookApi/wwwroot/style.css",
+      "SourceId": "BookApi",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/dezzz/BookApi/wwwroot/",
+      "BasePath": "_content/BookApi",
+      "RelativePath": "style#[.{fingerprint}]?.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "8h3vph72wf",
+      "Integrity": "XLB9Z9kwrq9x4hCqZV7uYaw0OenLvn3EaP2/at1N7eg=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/style.css"
+    }
+  ],
+  "Endpoints": [
+    {
+      "Route": "index.html",
+      "AssetFile": "/Users/dezzz/BookApi/obj/Debug/net9.0/compressed/0g3xlmqs5b-vmirwpuc6a.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.002808988764"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "355"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"ZrF34oo8SA5d7YtK8UmBqS1ZDXREXQhzMExOAG7Nb3o=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 19 Jun 2025 18:37:36 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"F5tukNtFPFwOri3JRxV9Yrj48nuwQ7dyFgUbLwE82Pk=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-F5tukNtFPFwOri3JRxV9Yrj48nuwQ7dyFgUbLwE82Pk="
+        }
+      ]
+    },
+    {
+      "Route": "index.html",
+      "AssetFile": "/Users/dezzz/BookApi/wwwroot/index.html",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "576"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"F5tukNtFPFwOri3JRxV9Yrj48nuwQ7dyFgUbLwE82Pk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 19 Jun 2025 18:37:36 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-F5tukNtFPFwOri3JRxV9Yrj48nuwQ7dyFgUbLwE82Pk="
+        }
+      ]
+    },
+    {
+      "Route": "index.html.gz",
+      "AssetFile": "/Users/dezzz/BookApi/obj/Debug/net9.0/compressed/0g3xlmqs5b-vmirwpuc6a.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "355"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"ZrF34oo8SA5d7YtK8UmBqS1ZDXREXQhzMExOAG7Nb3o=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 19 Jun 2025 18:37:36 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-ZrF34oo8SA5d7YtK8UmBqS1ZDXREXQhzMExOAG7Nb3o="
+        }
+      ]
+    },
+    {
+      "Route": "index.vmirwpuc6a.html",
+      "AssetFile": "/Users/dezzz/BookApi/obj/Debug/net9.0/compressed/0g3xlmqs5b-vmirwpuc6a.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.002808988764"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "355"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"ZrF34oo8SA5d7YtK8UmBqS1ZDXREXQhzMExOAG7Nb3o=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 19 Jun 2025 18:37:36 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"F5tukNtFPFwOri3JRxV9Yrj48nuwQ7dyFgUbLwE82Pk=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "vmirwpuc6a"
+        },
+        {
+          "Name": "label",
+          "Value": "index.html"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-F5tukNtFPFwOri3JRxV9Yrj48nuwQ7dyFgUbLwE82Pk="
+        }
+      ]
+    },
+    {
+      "Route": "index.vmirwpuc6a.html",
+      "AssetFile": "/Users/dezzz/BookApi/wwwroot/index.html",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "576"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"F5tukNtFPFwOri3JRxV9Yrj48nuwQ7dyFgUbLwE82Pk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 19 Jun 2025 18:37:36 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "vmirwpuc6a"
+        },
+        {
+          "Name": "label",
+          "Value": "index.html"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-F5tukNtFPFwOri3JRxV9Yrj48nuwQ7dyFgUbLwE82Pk="
+        }
+      ]
+    },
+    {
+      "Route": "index.vmirwpuc6a.html.gz",
+      "AssetFile": "/Users/dezzz/BookApi/obj/Debug/net9.0/compressed/0g3xlmqs5b-vmirwpuc6a.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "355"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"ZrF34oo8SA5d7YtK8UmBqS1ZDXREXQhzMExOAG7Nb3o=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 19 Jun 2025 18:37:36 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "vmirwpuc6a"
+        },
+        {
+          "Name": "label",
+          "Value": "index.html.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-ZrF34oo8SA5d7YtK8UmBqS1ZDXREXQhzMExOAG7Nb3o="
+        }
+      ]
+    },
+    {
+      "Route": "script.js",
+      "AssetFile": "/Users/dezzz/BookApi/obj/Debug/net9.0/compressed/7zsdkkhl5l-qw3ibyva09.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.001177856302"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "848"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"RvR2jK/K3sAac7gtyjTW3F/HzFxSiDPRX9dzJ+kn2hY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 19 Jun 2025 18:41:31 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"tviJ+LpmroHhMKGHC1PrL44q36VM9kyyaANmV+Iyg3Y=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-tviJ+LpmroHhMKGHC1PrL44q36VM9kyyaANmV+Iyg3Y="
+        }
+      ]
+    },
+    {
+      "Route": "script.js",
+      "AssetFile": "/Users/dezzz/BookApi/wwwroot/script.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1968"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"tviJ+LpmroHhMKGHC1PrL44q36VM9kyyaANmV+Iyg3Y=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 19 Jun 2025 18:41:31 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-tviJ+LpmroHhMKGHC1PrL44q36VM9kyyaANmV+Iyg3Y="
+        }
+      ]
+    },
+    {
+      "Route": "script.js.gz",
+      "AssetFile": "/Users/dezzz/BookApi/obj/Debug/net9.0/compressed/7zsdkkhl5l-qw3ibyva09.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "848"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"RvR2jK/K3sAac7gtyjTW3F/HzFxSiDPRX9dzJ+kn2hY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 19 Jun 2025 18:41:31 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-RvR2jK/K3sAac7gtyjTW3F/HzFxSiDPRX9dzJ+kn2hY="
+        }
+      ]
+    },
+    {
+      "Route": "script.qw3ibyva09.js",
+      "AssetFile": "/Users/dezzz/BookApi/obj/Debug/net9.0/compressed/7zsdkkhl5l-qw3ibyva09.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.001177856302"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "848"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"RvR2jK/K3sAac7gtyjTW3F/HzFxSiDPRX9dzJ+kn2hY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 19 Jun 2025 18:41:31 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"tviJ+LpmroHhMKGHC1PrL44q36VM9kyyaANmV+Iyg3Y=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "qw3ibyva09"
+        },
+        {
+          "Name": "label",
+          "Value": "script.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-tviJ+LpmroHhMKGHC1PrL44q36VM9kyyaANmV+Iyg3Y="
+        }
+      ]
+    },
+    {
+      "Route": "script.qw3ibyva09.js",
+      "AssetFile": "/Users/dezzz/BookApi/wwwroot/script.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1968"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"tviJ+LpmroHhMKGHC1PrL44q36VM9kyyaANmV+Iyg3Y=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 19 Jun 2025 18:41:31 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "qw3ibyva09"
+        },
+        {
+          "Name": "label",
+          "Value": "script.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-tviJ+LpmroHhMKGHC1PrL44q36VM9kyyaANmV+Iyg3Y="
+        }
+      ]
+    },
+    {
+      "Route": "script.qw3ibyva09.js.gz",
+      "AssetFile": "/Users/dezzz/BookApi/obj/Debug/net9.0/compressed/7zsdkkhl5l-qw3ibyva09.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "848"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"RvR2jK/K3sAac7gtyjTW3F/HzFxSiDPRX9dzJ+kn2hY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 19 Jun 2025 18:41:31 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "qw3ibyva09"
+        },
+        {
+          "Name": "label",
+          "Value": "script.js.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-RvR2jK/K3sAac7gtyjTW3F/HzFxSiDPRX9dzJ+kn2hY="
+        }
+      ]
+    },
+    {
+      "Route": "style.8h3vph72wf.css",
+      "AssetFile": "/Users/dezzz/BookApi/obj/Debug/net9.0/compressed/fcsm4tenuv-8h3vph72wf.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.004504504505"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "221"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"m8+inVXmIc/WKmR3tLMKpyRjrfzpJg3qr+/+ktgFTqs=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 19 Jun 2025 18:39:16 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"XLB9Z9kwrq9x4hCqZV7uYaw0OenLvn3EaP2/at1N7eg=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "8h3vph72wf"
+        },
+        {
+          "Name": "label",
+          "Value": "style.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-XLB9Z9kwrq9x4hCqZV7uYaw0OenLvn3EaP2/at1N7eg="
+        }
+      ]
+    },
+    {
+      "Route": "style.8h3vph72wf.css",
+      "AssetFile": "/Users/dezzz/BookApi/wwwroot/style.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "357"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"XLB9Z9kwrq9x4hCqZV7uYaw0OenLvn3EaP2/at1N7eg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 19 Jun 2025 18:39:16 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "8h3vph72wf"
+        },
+        {
+          "Name": "label",
+          "Value": "style.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-XLB9Z9kwrq9x4hCqZV7uYaw0OenLvn3EaP2/at1N7eg="
+        }
+      ]
+    },
+    {
+      "Route": "style.8h3vph72wf.css.gz",
+      "AssetFile": "/Users/dezzz/BookApi/obj/Debug/net9.0/compressed/fcsm4tenuv-8h3vph72wf.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "221"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"m8+inVXmIc/WKmR3tLMKpyRjrfzpJg3qr+/+ktgFTqs=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 19 Jun 2025 18:39:16 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "8h3vph72wf"
+        },
+        {
+          "Name": "label",
+          "Value": "style.css.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-m8+inVXmIc/WKmR3tLMKpyRjrfzpJg3qr+/+ktgFTqs="
+        }
+      ]
+    },
+    {
+      "Route": "style.css",
+      "AssetFile": "/Users/dezzz/BookApi/obj/Debug/net9.0/compressed/fcsm4tenuv-8h3vph72wf.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.004504504505"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "221"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"m8+inVXmIc/WKmR3tLMKpyRjrfzpJg3qr+/+ktgFTqs=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 19 Jun 2025 18:39:16 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"XLB9Z9kwrq9x4hCqZV7uYaw0OenLvn3EaP2/at1N7eg=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-XLB9Z9kwrq9x4hCqZV7uYaw0OenLvn3EaP2/at1N7eg="
+        }
+      ]
+    },
+    {
+      "Route": "style.css",
+      "AssetFile": "/Users/dezzz/BookApi/wwwroot/style.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "357"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"XLB9Z9kwrq9x4hCqZV7uYaw0OenLvn3EaP2/at1N7eg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 19 Jun 2025 18:39:16 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-XLB9Z9kwrq9x4hCqZV7uYaw0OenLvn3EaP2/at1N7eg="
+        }
+      ]
+    },
+    {
+      "Route": "style.css.gz",
+      "AssetFile": "/Users/dezzz/BookApi/obj/Debug/net9.0/compressed/fcsm4tenuv-8h3vph72wf.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "221"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"m8+inVXmIc/WKmR3tLMKpyRjrfzpJg3qr+/+ktgFTqs=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 19 Jun 2025 18:39:16 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-m8+inVXmIc/WKmR3tLMKpyRjrfzpJg3qr+/+ktgFTqs="
+        }
+      ]
+    }
+  ]
 }

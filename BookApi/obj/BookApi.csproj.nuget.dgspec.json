@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/dezzz/BookApi/BookApi.csproj": {}
+    "/Users/dezzz/fakegoodreads/BookApi/BookApi.csproj": {}
   },
   "projects": {
-    "/Users/dezzz/BookApi/BookApi.csproj": {
+    "/Users/dezzz/fakegoodreads/BookApi/BookApi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/dezzz/BookApi/BookApi.csproj",
+        "projectUniqueName": "/Users/dezzz/fakegoodreads/BookApi/BookApi.csproj",
         "projectName": "BookApi",
-        "projectPath": "/Users/dezzz/BookApi/BookApi.csproj",
+        "projectPath": "/Users/dezzz/fakegoodreads/BookApi/BookApi.csproj",
         "packagesPath": "/Users/dezzz/.nuget/packages/",
-        "outputPath": "/Users/dezzz/BookApi/obj/",
+        "outputPath": "/Users/dezzz/fakegoodreads/BookApi/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/dezzz/.nuget/NuGet/NuGet.Config"
@@ -44,7 +44,17 @@
         "net9.0": {
           "targetAlias": "net9.0",
           "dependencies": {
-            "Microsoft.AspNetCore.OpenApi": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[9.0.6, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[9.0.6, )"
+            },
+            "Npgsql.EntityFrameworkCore.PostgreSQL": {
               "target": "Package",
               "version": "[9.0.4, )"
             }
